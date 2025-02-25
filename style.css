@@ -1,11 +1,12 @@
 :root {
     --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button2: #3d2bfe;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-secondary: #444444;
+    --color-tertiary: #f2e718;
+    --color-button: #3ca812;
+    --color-button2: #ee1c1c;
+    --color-button-hover: #444448;
+    --color-button2-hover: #444448;
+    --color-text: #FFFFFF;
     --color-white: #FFFFFF;
 }
 
@@ -178,5 +179,9 @@ ul {
 }
 
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-draw2:hover {
     background-color: var(--color-button-hover);
 }
